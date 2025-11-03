@@ -54,9 +54,3 @@ Y is 3 + 4.
 Z is 5 * 2, Z =:= 10.
 \+ (5 = 6).
 C is (7 - 2), C =:= 5.
-
-/*
-Exercise 3 - Unification
-
-
-*/
