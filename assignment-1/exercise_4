@@ -1,0 +1,44 @@
+/*
+Exercise 4
+
+
+1. The call of same_spieces(dog,A) will fail because
+all of the clause that appear in the KB, and might be accesed by the call of same_spieces(dog,A),
+consist of the not(X=Y).
+After binding the dog = X and A = Y we have not(dog=A), where A is uninstantiated variable and dog is an instance.
+Therefroe dog=A is valid, however not(sth) evaluates to true only if sth = false, thus in this case not(dog=A)
+will evaluate to false. The same case happens in the last clause where not(X=Y) is chekced again.
+
+
+
+2. If instead of calling same_spieces(dog,A), we would call same_spieces(dog,cat), 
+then the call will become true. Call will find its possible answer in the forth clause, so that 
+X = dog and Y = cat. Follwoing that wirst rule will evaluate to true
+since in our case (dog = cat ) = False, and not(False) = True.
+Then program will shif its focus towards the next rule - mammal(dog), and will start
+looking through the KB to find it. It will find it in the first clause and thus evaluate to true.
+The last rule to call is the mammal(cat), which also has its instance in the KB (2nd clause) and thus 
+its call evaluates to true. Therefore the combination of this 3 trues will evaluate to true as well
+
+
+
+4.  
+mammal( dog ).
+mammal( cat ).
+bird( eagle ).
+bird( parrot ).
+same_species(X ,Y ) :- mammal(X), mammal(Y), not(X=Y)
+same_species(X , Y ) :- bird(X), bird(Y), not(X=Y)
+
+This KB wil improve the performance of the cals such as same_species(X,Y). 
+This is the fact since it doesnt' immedietly fails by checking the not(X=Y) (as it happended with the intial KB)
+With the updated KB and with the intial call same_species(dog,A) it first, bounds X = dog and then Y = A
+it then checks if the mammal(dog) exsits in our KB - it does. then it check if mammal(A) exists.
+The first that occurs is when A = dog, thus this evaluates to true as well. Finally it checks 
+not(X=Y) which in our case is (dog = dog)  = True but not(True) = False thus it backtracks to the 
+previous step and checks the if there is any other value that could boudn to A and satisfy mammal(sth).
+There is a value cat, it bounds to A = cat, we have mammal(cat) = true , and then not(dog=cat) = true 
+
+
+*/
+
