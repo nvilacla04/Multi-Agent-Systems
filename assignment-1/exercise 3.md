@@ -72,7 +72,8 @@ Y is 3 + 4.
 
 ```
 
-Will not unify. is does arithmetic evaluation and binds but no unification. But will succeed. 
+From slides: "The is operator takes an arithmetic expression on its right side, evaluates it, and unifies the result with the variable on its left side." 
+Y=7.
 
 8) 
 
