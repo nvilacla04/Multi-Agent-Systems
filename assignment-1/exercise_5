@@ -1,0 +1,7 @@
+/* exercise5.1
+*/
+
+first_two([X,Y| _],X,Y) . 
+
+/* exercise5.2
+*/
