@@ -1,5 +1,42 @@
+
+/*
+exercise 6
+*/
+
+
+/*
+6.1
 warm(Y):-warm(Y).
 warm(a).
 happy(b).
 summer(X):-happy(X).
 summer(X):-warm(Y).
+*/
+
+
+/*
+explanation
+if we place the clauses in the way given above (3,4,5,1,2)
+and query our KB by summer(a) then after wfinidng a first fitting clause
+4th from the top, X binds to a and it is true iff happy(a) exist in our KB -it doesnt thus
+it evalautes to false and look for the other rule.
+It finds rule nr 5 (strating from the top) which binds X with a and states that this is true if 
+warm(Y) is true . It looks for this kind of infromation in our KB and finds the frist one
+warm(Y) is true if warm(Y) is true, which leads to an infinfe loop cuz it kept looking for this 
+variable Y that might make warm(Y) true. 
+*/
+
+
+/*
+exercise 6.2
+*/
+
+/*
+
+summer(X):-happy(X).
+summer(X):-warm(Y).
+warm(Y):-warm(Y).
+warm(a).
+happy(b)
+*/
+
