@@ -20,6 +20,25 @@ looking through the KB to find it. It will find it in the first clause and thus 
 The last rule to call is the mammal(cat), which also has its instance in the KB (2nd clause) and thus 
 its call evaluates to true. Therefore the combination of this 3 trues will evaluate to true as well
 
+2. 
+mammal( dog ).
+mammal( cat ).
+bird( eagle ).
+bird( parrot ).
+same_species(X ,Y ) :- mammal(X), mammal(Y), not(X=Y)
+same_species(X , Y ) :- bird(X), bird(Y), not(X=Y)
+
+If we change our KB to the one proivded above, query like same_spieces(dog, A) will succeed.
+That is the case since after the call, X binds to the dog, and Y binds to the A 
+Our KB further start looking for mammal(dog) and it finds one (making it true), and then 
+start looking for mammal(A) finds mammal(dog) so binds A with dog (making it true as well).
+Then it checks not(X=Y), since in our case we have dog = doge it makes this rule false.
+It backtracks to the mammal(A) and checks if there is any other instance that might satisty this rule.
+It finds mammal(cat) and it binds it with A (makes it true), then it proceeds to the last rule
+where X has to be different from Y - if Y = cat, and X = dog that is the case, and it makes that rule true.
+
+
+3. 
 
 
 4.  
