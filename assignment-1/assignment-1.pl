@@ -42,18 +42,6 @@ false.
 false.
 */
 
-ring = power.
-power = Ring.
-key(X,'value') = key(data,X).
-triple(X,item(Y),Z) = triple(a,item(b),c)
-structure(X,layer(Y),depth(Z)) = structure(layer(a),layer(b),depth(c)).
-X = 3 + 4.
-Y is 3 + 4.
-7 =:= 3 + 4.
-7 =\= 2 * 3.
-Z is 5 * 2, Z =:= 10.
-\+ (5 = 6).
-C is (7 - 2), C =:= 5.
 
 
 # Exercise 3
@@ -257,3 +245,122 @@ There is a value cat, it bounds to A = cat, we have mammal(cat) = true , and the
 
 
 */
+
+/*Write Prolog facts and rules that succeed through simple pattern matching. All goals must be
+provable through unification alone.*/
+
+/* Exercise5.1
+1. Define a predicate first_two(List, X, Y) that succeeds when X and Y are the first two
+elements of List. Example query: ?- first_two([a,b,c,d], X, Y). [4 pts]
+*/
+
+first_two([X,Y| _],X,Y) . 
+
+/*
+?- first_two([a,b,c,d], X, Y).
+X = a,
+Y = b.
+*/
+
+
+
+/* Exercise5.2
+2. Define a predicate last_two(List, X, Y) that succeeds when X and Y are the last two elements
+of a list of exactly four elements. Example query: ?- last_two([a,b,c,d], X, Y). [4 pts]
+*/
+last_two([_,_,X,Y], X,Y).
+
+
+/*
+?- last_two([a,b,c,d], X, Y).
+X = c,
+Y = d.
+*/
+
+
+/* Exercise 5.3
+3. Define a predicate split_string(StringList, Prefix, Suffix) that succeeds when StringList
+is composed of two sublists, the first of length two (Prefix) and the rest (Suffix). Example
+query: ?- split_string([h,e,l,l,o], P, S). [4 pts]
+*/
+
+split_string([A,B|_], [A,B], _).
+
+
+/*
+?- split_string([h,e,l,l,o], P, S).
+P = [h, e].
+*/
+
+/* Exercise 5.4
+4. Define a predicate swap_pair(Pair, Swapped) that succeeds when Pair is a list of exactly two
+elements and Swapped is that list with the order reversed. Example query: ?- swap_pair([x,y],
+Z). [4 pts]
+*/
+
+swap_pair([X,Y], [Y,X]).
+
+/*
+?- swap_pair([x,y], Z).
+Z = [y, x].
+*/
+
+
+
+
+ 
+/*
+exercise 6
+*/
+
+
+/*
+6.1
+warm(Y):-warm(Y).
+warm(a).
+happy(b).
+summer(X):-happy(X).
+summer(X):-warm(Y).
+*/
+
+
+/*
+explanation
+if we place the clauses in the way given above (3,4,5,1,2)
+and query our KB by summer(a) then after wfinidng a first fitting clause
+4th from the top, X binds to a and it is true iff happy(a) exist in our KB -it doesnt thus
+it evalautes to false and look for the other rule.
+It finds rule nr 5 (strating from the top) which binds X with a and states that this is true if 
+warm(Y) is true . It looks for this kind of infromation in our KB and finds the frist one
+warm(Y) is true if warm(Y) is true, which leads to an infinfe loop cuz it kept looking for this 
+variable Y that might make warm(Y) true. 
+*/
+
+
+/*
+exercise 6.2
+*/
+
+/*
+
+summer(X) :- happy(X).
+summer(X) :- warm(Y).
+warm(a).
+warm(Y) :- warm(Y).
+happy(b).
+
+after calling summer(a), prolog first checks summer(X):- happy(X) -> whihc fails
+since happy(a) is false
+then it tires the secodn rulle summer(X) :- warm(Y) ,it finds warm(a) and gives true
+but iot hcekc other options as well and it finds 
+warmy(Y):- warm(Y), this causes infiite recursion
+prolog keeps calling warm(Y)
+*/
+
+
+
+
+
+
+
+
