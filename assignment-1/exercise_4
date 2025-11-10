@@ -10,16 +10,6 @@ Therefroe dog=A is valid, however not(sth) evaluates to true only if sth = false
 will evaluate to false. The same case happens in the last clause where not(X=Y) is chekced again.
 
 
-
-2. If instead of calling same_spieces(dog,A), we would call same_spieces(dog,cat), 
-then the call will become true. Call will find its possible answer in the forth clause, so that 
-X = dog and Y = cat. Follwoing that wirst rule will evaluate to true
-since in our case (dog = cat ) = False, and not(False) = True.
-Then program will shif its focus towards the next rule - mammal(dog), and will start
-looking through the KB to find it. It will find it in the first clause and thus evaluate to true.
-The last rule to call is the mammal(cat), which also has its instance in the KB (2nd clause) and thus 
-its call evaluates to true. Therefore the combination of this 3 trues will evaluate to true as well
-
 2. 
 mammal( dog ).
 mammal( cat ).
@@ -38,7 +28,6 @@ It finds mammal(cat) and it binds it with A (makes it true), then it proceeds to
 where X has to be different from Y - if Y = cat, and X = dog that is the case, and it makes that rule true.
 
 
-3. 
 
 
 4.  
