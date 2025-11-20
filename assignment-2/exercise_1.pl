@@ -40,5 +40,4 @@ route(F, T, M) :- walk(F, T, M).
 
 %recursive casea
 route(F, T, M) :- bike(F, Intermediate, M1), route(Intermediate, T, M2), M is M1 + M2.
-
 route(F, T, M) :- walk(F, Intermediate, M1), route(Intermediate, T, M2), M is M1 + M2.
