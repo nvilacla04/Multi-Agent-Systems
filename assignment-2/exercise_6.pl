@@ -69,7 +69,7 @@ albumsByRating(AlbumList, SortedTitles) :-
             album(Title, _, _, _, _, Rating)),
             RatingTitlePairs),
    %sort by rating ascending
-   sort(RatingTitlePairs, SortedPairs),
+   msort(RatingTitlePairs, SortedPairs),
    %get highest first
    reverse(SortedPairs, ReversedPairs),
    %get just titles
