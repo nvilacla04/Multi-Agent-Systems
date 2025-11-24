@@ -142,6 +142,20 @@ the reverse list and the normal list. If I input xyz([9,8,7], A,B) its should re
 A = [7,8,9]
 B = [9,8,7]
 
+/* exercise 4 */
+sum_of_squares_equal(B, C) :-
+    sumsq(B, SumB),
+    sumsq(C, SumC),
+    SumB =:= SumC.
+
+balance(A, B, C) :-
+    permutation(A, BC),
+    append(B, C, BC),
+    sum_of_squares_equal(B, C).
+
+sumsq([], 0).
+sumsq([H|T], S) :- sumsq(T, R), S is R + H*H.
+
 */
 
 /*exercise_5  */
