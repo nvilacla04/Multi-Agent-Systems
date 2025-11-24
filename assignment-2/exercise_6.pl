@@ -55,4 +55,34 @@ true.
 allAlbumTitlesSorted(L) :- allAlbumTitles(Titles), sort(Titles, L).
 
 %3 (8 pts) Write a predicate albumsByGenre/2 such that albumsByGenre(genre(’rock’),L) returns all album titles in that genre.
- 
+
+albumsByGenre(Genre, L) :- 
+   findall(Title,
+      (album(Title, _, Genres, _, _, _), member(Genre, Genres)), L).
+
+
+%4 Write a predicate albumsByRating/2 such that albumsByRating(AlbumList,SortedTitles) succeeds if SortedTitles contains all album titles in AlbumList sorted by rating (highest first).
+
+albumsByRating(AlbumList, SortedTitles) :-
+   findall(Rating-Title, 
+         (member(Title, AlbumList),
+            album(Title, _, _, _, _, Rating)),
+            RatingTitlePairs),
+   %sort by rating ascending
+   sort(RatingTitlePairs, SortedPairs),
+   %get highest first
+   reverse(SortedPairs, ReversedPairs),
+   %get just titles
+   findall(T, member(_-T, ReversedPairs), SortedTitles).
+
+
+%5 Write a predicate countAlbumsByGenre/3 such that countAlbumsByGenre(AlbumList,genre(’pop’),Count) succeeds if Count is the total number of albums in AlbumList belonging to that genre.
+
+countAlbumsByGenre(AlbumList, Genre, Count) :-
+    findall(Title,
+            (member(Title, AlbumList),
+               album(Title, _, Genres, _, _, _),
+               member(Genre, Genres)), MatchingAlbums),
+
+    length(MatchingAlbums, Count).
+
