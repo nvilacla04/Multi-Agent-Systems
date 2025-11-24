@@ -34,7 +34,11 @@ on(b,c).
 on(c,d).
 on(d,e).
 on(e,table).
+
 tower([X]) :- on(X,table).
 tower([X,Y|T]) :- on(X,Y), tower([Y|T]).
 
-exactlyThreeTower(X) :- , length()
+exactlyThreeTower(X) :-
+    tower(TowerList),
+    TowerList = [X|_],
+    length(TowerList, 3).
