@@ -1,0 +1,24 @@
+use "bw4t-client-3.10.1.jar" with 
+	clientip ="localhost", clientport="2000", 
+	serverip = "localhost", serverport = "8000",
+	agentcount = "1", humancount = "0", launchgui = "false", goal = "true".
+
+define robot {
+	use robotUpdate for updates.
+	use robotControl for decisions.
+	
+	% percept handling
+	replace in/1. % indicates that the robot is in a room.
+	update state/1. % keeps track of state of movement of the robot.
+	add zone/5. % provides initial information about all the places in BW4T.
+	% added precepts. 
+	add sequence/1. %is send once so use add
+	update sequenceIndex/1. %is send on change so its update
+	replace atBlock/1. %send always so replace
+	replace color/2.
+	replace holding/1.
+}
+
+launchpolicy {
+	when * launch robot.
+}

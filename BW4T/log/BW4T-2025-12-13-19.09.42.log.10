@@ -1,0 +1,13 @@
+19:09:46,725 - sequence
+19:09:46,726 - room RoomA3 contains blocks:  P R W
+19:09:46,726 - room RoomA2 contains blocks:  G O B B
+19:09:46,727 - room RoomB3 contains blocks:  G
+19:09:46,727 - room RoomC1 contains blocks:  R P W R
+19:09:46,728 - room RoomA1 contains blocks:  G O P R G P
+19:09:46,728 - room RoomB2 contains blocks:  P Y P R B
+19:09:46,729 - room RoomC3 contains blocks:  W W G
+19:09:46,729 - room RoomB1 contains blocks:  P
+19:09:46,730 - room RoomC2 contains blocks:  B
+19:09:46,730 - sequence P Y P P W G
+19:09:52,104 - total time is 5.348 seconds
+19:09:52,105 - Number of Steps taken: 0.0

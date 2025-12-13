@@ -1,0 +1,67 @@
+22:35:40,933 - sequence
+22:35:40,933 - room RoomA3 contains blocks:  R O W G Y
+22:35:40,935 - room RoomA2 contains blocks:  Y
+22:35:40,935 - room RoomB3 contains blocks:  P Y G Y
+22:35:40,935 - room RoomC1 contains blocks:  G B Y
+22:35:40,935 - room RoomA1 contains blocks:  G W
+22:35:40,936 - room RoomB2 contains blocks:  Y R R B
+22:35:40,936 - room RoomC3 contains blocks:  B
+22:35:40,936 - room RoomB1 contains blocks:  Y B Y W
+22:35:40,936 - room RoomC2 contains blocks:  B O R P
+22:35:40,936 - sequence B G Y Y B B
+22:35:47,441 - []
+22:35:47,624 - action Bot_1 goTo(RoomA1)
+22:35:47,658 - []
+22:35:47,711 - []
+22:35:47,744 - []
+22:35:47,769 - []
+22:35:47,819 - []
+22:35:47,860 - []
+22:35:47,915 - []
+22:35:47,954 - []
+22:35:47,993 - []
+22:35:48,030 - []
+22:35:48,061 - []
+22:35:48,097 - []
+22:35:48,135 - []
+22:35:48,156 - []
+22:35:48,188 - []
+22:35:48,215 - []
+22:35:48,239 - []
+22:35:48,263 - []
+22:35:48,289 - []
+22:35:48,317 - []
+22:35:48,356 - []
+22:35:48,384 - []
+22:35:48,418 - []
+22:35:48,452 - []
+22:35:48,475 - []
+22:35:48,504 - []
+22:35:48,527 - []
+22:35:48,551 - []
+22:35:48,574 - []
+22:35:48,603 - []
+22:35:48,644 - []
+22:35:48,669 - []
+22:35:48,698 - []
+22:35:48,731 - []
+22:35:48,756 - []
+22:35:48,787 - []
+22:35:48,809 - []
+22:35:48,851 - []
+22:35:48,876 - []
+22:35:48,912 - []
+22:35:48,938 - []
+22:35:48,962 - []
+22:35:48,991 - []
+22:35:49,019 - []
+22:35:49,046 - []
+22:35:49,075 - []
+22:35:49,105 - total time is 8.091 seconds
+22:35:49,106 - Number of Steps taken: 0.0
+22:35:49,106 - agentsummary Bot_1 handicaps none
+22:35:49,106 - agentsummary robot gooddrops 0
+22:35:49,106 - agentsummary robot wrongdrops 0
+22:35:49,106 - agentsummary robot nmessage 0
+22:35:49,106 - agentsummary robot idletime 0.327
+22:35:49,106 - agentsummary robot nroomsentered 0

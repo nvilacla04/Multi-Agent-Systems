@@ -1,0 +1,40 @@
+use bw4tKnowledge.
+
+module robotUpdate {
+
+    %mark visited rooms.
+    if in(PlaceID), room(PlaceID)
+    then insert(visited(PlaceID)).
+
+    % refresh block memory for the current room had to add this or it loops between rooms some times
+    %delete everything we previously remembered for this room
+    forall in(RoomID), room(RoomID), block(B, C, RoomID)
+    do delete(block(B, C, RoomID)).
+
+    %insert what we currently perceive in this room
+    forall in(RoomID), room(RoomID), color(B, C),
+           not(block(B, C, RoomID))
+    do insert(block(B, C, RoomID)).
+
+    %if we are holding a block remove it from any room memory
+    forall holding(B), block(B, C, P)
+    do delete(block(B, C, P)).
+
+    %target selection to avoid bouncing between rooms
+    %choose one target of the needed color when in a room
+    if not(holding(_)), next_color_needed(ColorID), in(RoomID), room(RoomID),
+       color(BlockID, ColorID), not(target(_))
+    then insert(target(BlockID)).
+
+    %clear target after picking something up
+    if holding(_), target(T)
+    then delete(target(T)).
+
+    %clear target if it is no longer visible
+    if target(T), not(color(T, _))
+    then delete(target(T)).
+
+    %cear target if the needed color changed
+    if target(T), next_color_needed(ColorID), not(color(T, ColorID))
+    then delete(target(T)).
+}

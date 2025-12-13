@@ -1,0 +1,36 @@
+use bw4tKnowledge.
+
+% module for controlling the robot in the BW4T environment.
+module robotControl {
+
+	%if the task is done stop 
+    if sequence(Seq), sequenceIndex(I), length(Seq, L), I >= L
+    then exit-module.
+    
+    %if we are holding smth and we are in DZ drop it
+    if holding(_), in('DropZone'), not(state(traveling))
+    then putDown.
+    
+    %if we r holding smth then go dz
+    if holding(_), not(in('DropZone')), not(state(traveling))
+    then goTo('DropZone').
+    
+    %if we have a target and are not next to it go next to it 
+    if not(holding(_)), target(BlockID), not(atBlock(BlockID)), not(state(traveling))
+    then goToBlock(BlockID).
+    
+    %if we are next to our target pick it up
+    if not(holding(_)), next_color_needed(ColorID), target(BlockID),
+       atBlock(BlockID), color(BlockID, ColorID), not(state(traveling))
+    then pickUp(BlockID).
+    
+    %if not holding smth and we know where it at go to that room
+    if not(holding(_)), next_color_needed(ColorID), block(_, ColorID, RoomID),
+       not(state(traveling)), not(in(RoomID))
+    then goTo(RoomID).
+    
+    
+    %go explore if we dont know where its at
+    if not_yet_visited(PlaceID), not(state(traveling))
+    then goTo(PlaceID).
+}

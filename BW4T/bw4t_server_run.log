@@ -1,0 +1,669 @@
+0 [main] INFO nl.tudelft.bw4t.server.environment.Launcher  - Starting up BW4T Server.
+1 [main] INFO nl.tudelft.bw4t.server.environment.Launcher  - Reading console arguments...
+1 [main] DEBUG nl.tudelft.bw4t.server.environment.Launcher  - Default for parameter '-repast' is './BW4T.rs'
+1 [main] DEBUG nl.tudelft.bw4t.server.environment.Launcher  - Default for parameter '-map' is 'Random'
+1 [main] DEBUG nl.tudelft.bw4t.server.environment.Launcher  - Default for parameter '-serverip' is 'localhost'
+1 [main] DEBUG nl.tudelft.bw4t.server.environment.Launcher  - Default for parameter '-serverport' is '8000'
+1 [main] DEBUG nl.tudelft.bw4t.server.environment.Launcher  - Default for parameter '-gui' is 'true'
+1 [main] DEBUG nl.tudelft.bw4t.server.environment.Launcher  - Default for parameter '-key' is 'GuVC7TZ38NN49X8utMspV3Z5'
+1 [main] DEBUG nl.tudelft.bw4t.server.environment.Launcher  - Default for parameter '-collision' is 'false'
+1 [main] DEBUG nl.tudelft.bw4t.server.environment.Launcher  - Default for parameter '-paths' is 'false'
+1 [main] INFO nl.tudelft.bw4t.server.environment.Launcher  - Setting up correct directory structure.
+1 [main] INFO nl.tudelft.bw4t.server.environment.Launcher  - Setting up BW4T Environment.
+195 [main] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+198 [main] INFO nl.tudelft.bw4t.server.environment.Launcher  - Starting the BW4T Environment.
+198 [main] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+198 [main] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+198 [main] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+1079 [main] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+1234 [Updater->23e44287] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@23e44287
+1236 [Updater->23e44287] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@23e44287
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by net.sf.cglib.core.ReflectUtils$1 (file:/home/nico/eclipse-workspace/BW4T/bw4t-server-3.10.1.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of net.sf.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+1587 [main] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+1587 [main] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+1587 [main] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+1587 [main] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+1588 [main] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+1588 [main] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+1879 [main] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+1885 [main] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+1885 [main] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+1885 [main] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+1885 [main] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+2002 [main] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+2005 [Updater->59c33386] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@59c33386
+2006 [Updater->59c33386] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@59c33386
+3236 [Updater->23e44287] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@23e44287
+129066 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+129066 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+129067 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+129067 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+129067 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+129067 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+129175 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+129183 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+129183 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+129183 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+129183 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+129263 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+129267 [Updater->7836104a] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@7836104a
+129267 [Updater->7836104a] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@7836104a
+129338 [Updater->59c33386] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@59c33386
+133951 [RMI TCP Connection(6)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:36537](remote),objID:[-95434c0:19b18fdc6dd:-7fff, -3217276985299802259]]]]]
+146425 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+146438 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+146439 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+146451 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+146452 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+146453 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+146556 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+146561 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+146561 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+146561 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+146561 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+146629 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+146631 [Updater->5374931d] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5374931d
+146632 [Updater->5374931d] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5374931d
+146687 [Updater->7836104a] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@7836104a
+152780 [RMI TCP Connection(10)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:34415](remote),objID:[-52f9618f:19b18fe109d:-7fff, -7605995206713944748]]]]]
+165722 [RMI TCP Connection(10)-192.168.1.162] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: PAUSED
+172681 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+172693 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+172693 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+172704 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+172705 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+172705 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+172809 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+172814 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+172814 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+172814 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+172814 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+172900 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+172902 [Updater->4f14114b] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@4f14114b
+172903 [Updater->4f14114b] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@4f14114b
+172965 [Updater->5374931d] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5374931d
+182316 [RMI TCP Connection(15)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:35401](remote),objID:[-102d6cd1:19b18fe83ef:-7fff, 3862153135082653635]]]]]
+194528 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+194541 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+194541 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+194553 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+194554 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+194554 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+194657 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+194663 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+194663 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+194663 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+194663 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+194724 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+194726 [Updater->485b9ca0] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@485b9ca0
+194726 [Updater->485b9ca0] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@485b9ca0
+194780 [Updater->4f14114b] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@4f14114b
+199975 [RMI TCP Connection(20)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:36825](remote),objID:[-77199637:19b18fec8f5:-7fff, -4491033481570819181]]]]]
+206913 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+206925 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+206925 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+206936 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+206937 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+206937 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+207042 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+207045 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+207045 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+207045 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+207045 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+207117 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+207120 [Updater->25b15d68] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@25b15d68
+207120 [Updater->25b15d68] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@25b15d68
+207174 [Updater->485b9ca0] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@485b9ca0
+211719 [RMI TCP Connection(23)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:42749](remote),objID:[4de3f8ad:19b18fef6cb:-7fff, -2484710312809825923]]]]]
+222942 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+222954 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+222954 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+222965 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+222966 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+222966 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+223070 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+223074 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+223074 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+223074 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+223074 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+223148 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+223151 [Updater->3854d336] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@3854d336
+223151 [Updater->3854d336] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@3854d336
+223206 [Updater->25b15d68] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@25b15d68
+227470 [RMI TCP Connection(27)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:44661](remote),objID:[-6dca6404:19b18ff345a:-7fff, 2264539249475021704]]]]]
+228710 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+228722 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+228722 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+228733 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+228734 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+228734 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+228838 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+228842 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+228842 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+228842 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+228842 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+228902 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+228904 [Updater->5b5c5169] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5b5c5169
+228904 [Updater->5b5c5169] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5b5c5169
+228958 [Updater->3854d336] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@3854d336
+236916 [RMI TCP Connection(30)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:38937](remote),objID:[73f77f05:19b18ff5938:-7fff, 4267955927682916556]]]]]
+241305 [RMI TCP Connection(30)-192.168.1.162] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: PAUSED
+867908 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+867920 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+867920 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+867931 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+867932 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+867932 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+868036 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+868042 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+868042 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+868042 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+868042 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+868106 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+868109 [Updater->47c991e1] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@47c991e1
+868109 [Updater->47c991e1] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@47c991e1
+868163 [Updater->5b5c5169] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5b5c5169
+872218 [RMI TCP Connection(44)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:46817](remote),objID:[-615a7b4e:19b19090adc:-7fff, -6455899732634563876]]]]]
+875519 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+875530 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+875531 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+875542 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+875543 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+875543 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+875647 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+875650 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+875650 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+875650 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+875650 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+875699 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+875701 [Updater->5b7dcb46] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5b7dcb46
+875702 [Updater->5b7dcb46] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5b7dcb46
+875755 [Updater->47c991e1] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@47c991e1
+879062 [RMI TCP Connection(47)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:39855](remote),objID:[3d4fda68:19b19092593:-7fff, 5438278387142671175]]]]]
+881731 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+881742 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+881742 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+881753 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+881754 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+881754 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+881858 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+881861 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+881862 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+881862 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+881862 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+881913 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+881915 [Updater->40ae43cc] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@40ae43cc
+881915 [Updater->40ae43cc] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@40ae43cc
+881968 [Updater->5b7dcb46] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5b7dcb46
+886544 [RMI TCP Connection(50)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:44337](remote),objID:[-6d4f20ef:19b190942ba:-7fff, 3055006260685419174]]]]]
+896897 [RMI TCP Connection(50)-192.168.1.162] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: PAUSED
+1242389 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+1242389 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+1242389 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+1242389 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+1242389 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+1242389 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+1242493 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+1242498 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+1242498 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+1242498 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+1242498 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+1242550 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+1242552 [Updater->20cfd136] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@20cfd136
+1242552 [Updater->20cfd136] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@20cfd136
+1242604 [Updater->40ae43cc] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@40ae43cc
+1249862 [RMI TCP Connection(62)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:46113](remote),objID:[-29652b9:19b190ece1b:-7fff, 5242636924254821227]]]]]
+5327879 [RMI TCP Connection(175)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:39573](remote),objID:[124b1433:19b194d07d8:-7fff, -4361963341718634529]]]]]
+5342433 [RMI TCP Connection(179)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:34309](remote),objID:[676f6d41:19b194d40ba:-7fff, 2402587108559898147]]]]]
+5346388 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+5346426 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+5346427 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+5346462 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+5346469 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+5346469 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+5346572 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+5346578 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+5346578 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+5346578 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+5346578 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+5346629 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+5346632 [Updater->c8131fb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@c8131fb
+5346632 [Updater->c8131fb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@c8131fb
+5346694 [Updater->20cfd136] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@20cfd136
+5350526 [RMI TCP Connection(185)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:38531](remote),objID:[33f2248a:19b194d6035:-7fff, -6682576105205577549]]]]]
+5435691 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+5435691 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+5435692 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+5435692 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+5435692 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+5435692 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+5435796 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+5435800 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+5435800 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+5435800 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+5435800 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+5435849 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+5435850 [Updater->2ff19f65] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@2ff19f65
+5435851 [Updater->2ff19f65] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@2ff19f65
+5435903 [Updater->c8131fb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@c8131fb
+5442245 [RMI TCP Connection(192)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:42073](remote),objID:[10cedf6d:19b194ec68b:-7fff, -836759111697476899]]]]]
+9615169 [RMI TCP Connection(334)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:42613](remote),objID:[-4e7fa62d:19b198e71b6:-7fff, -4417436197821311937]]]]]
+9618087 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+9618122 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+9618122 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+9618146 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+9618156 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+9618158 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+9618299 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+9618317 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+9618317 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+9618317 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+9618317 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+9618415 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+9618418 [Updater->4eaf6dfb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@4eaf6dfb
+9618422 [Updater->4eaf6dfb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@4eaf6dfb
+9618523 [Updater->2ff19f65] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@2ff19f65
+9627817 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+9627820 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+9627820 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+9627820 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+9627820 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+9627820 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+9627942 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+9627945 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+9627945 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+9627945 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+9627945 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+9628045 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+9628052 [Updater->63ce03c1] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@63ce03c1
+9628057 [Updater->63ce03c1] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@63ce03c1
+9628126 [Updater->4eaf6dfb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@4eaf6dfb
+9644669 [RMI TCP Connection(340)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:42451](remote),objID:[-3087f2e8:19b198ee4d8:-7fff, -2989532003563256600]]]]]
+9657343 [RMI TCP Connection(341)-192.168.1.162] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: PAUSED
+9663571 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+9663595 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+9663595 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+9663613 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+9663617 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+9663617 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+9663753 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+9663774 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+9663774 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+9663774 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+9663774 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+9663858 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+9663864 [Updater->2342406f] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@2342406f
+9663865 [Updater->2342406f] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@2342406f
+9663950 [Updater->63ce03c1] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@63ce03c1
+9670678 [RMI TCP Connection(346)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:42097](remote),objID:[-5e600d53:19b198f4a42:-7fff, 1236904209021799926]]]]]
+9679635 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+9679653 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+9679653 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+9679668 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+9679669 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+9679670 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+9679816 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+9679834 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+9679834 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+9679834 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+9679834 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+9680015 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+9680022 [Updater->437d6083] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@437d6083
+9680023 [Updater->437d6083] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@437d6083
+9680098 [Updater->2342406f] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@2342406f
+9690747 [RMI TCP Connection(351)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:37385](remote),objID:[-293e3609:19b198f98bd:-7fff, -6467263602536611142]]]]]
+10999817 [RMI TCP Connection(403)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:37717](remote),objID:[-739915de:19b19a391f5:-7fff, 1884277607996079196]]]]]
+11012881 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11012923 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+11012924 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+11012955 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+11012971 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+11012971 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+11013083 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+11013115 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+11013116 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11013116 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+11013116 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+11013240 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+11013244 [Updater->6e3e605a] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6e3e605a
+11013250 [Updater->6e3e605a] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6e3e605a
+11013341 [Updater->437d6083] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@437d6083
+11019439 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11019439 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+11019440 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+11019440 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+11019440 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+11019440 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+11019551 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+11019569 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+11019569 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11019569 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+11019569 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+11019732 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+11019734 [Updater->68ee0173] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@68ee0173
+11019735 [Updater->68ee0173] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@68ee0173
+11019808 [Updater->6e3e605a] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6e3e605a
+11025209 [RMI TCP Connection(410)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:33611](remote),objID:[32943d15:19b19a3f584:-7fff, 6256421975671075007]]]]]
+11030835 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11030852 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+11030852 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+11030866 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+11030874 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+11030874 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+11030998 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+11031007 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+11031010 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11031010 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+11031010 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+11031262 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+11031267 [Updater->4e529ba] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@4e529ba
+11031275 [Updater->4e529ba] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@4e529ba
+11031385 [Updater->68ee0173] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@68ee0173
+11037349 [RMI TCP Connection(416)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:38101](remote),objID:[-2693a60:19b19a4246c:-7fff, -5555406440342630870]]]]]
+11039407 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11039431 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+11039432 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+11039443 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+11039448 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+11039448 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+11039590 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+11039598 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+11039598 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11039598 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+11039598 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+11039679 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+11039683 [Updater->609b9ecb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@609b9ecb
+11039683 [Updater->609b9ecb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@609b9ecb
+11039762 [Updater->4e529ba] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@4e529ba
+11046204 [RMI TCP Connection(419)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:40983](remote),objID:[6dd876c2:19b19a446fe:-7fff, 2418499627374735392]]]]]
+11060600 [RMI TCP Connection(420)-192.168.1.162] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: PAUSED
+11073434 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11073446 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+11073446 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+11073459 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+11073461 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+11073461 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+11073581 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+11073594 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+11073594 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11073594 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+11073594 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+11073705 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+11073710 [Updater->6f77f6e9] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6f77f6e9
+11073714 [Updater->6f77f6e9] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6f77f6e9
+11073767 [Updater->609b9ecb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@609b9ecb
+11081186 [RMI TCP Connection(427)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:33463](remote),objID:[-5dfa8a08:19b19a4cfc5:-7fff, 9016452356655837529]]]]]
+11094752 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11094765 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+11094766 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+11094778 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+11094781 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+11094781 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+11094905 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+11094911 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+11094911 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+11094911 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+11094911 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+11095044 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+11095048 [Updater->19a8aa31] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@19a8aa31
+11095049 [Updater->19a8aa31] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@19a8aa31
+11095105 [Updater->6f77f6e9] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6f77f6e9
+11102976 [RMI TCP Connection(433)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:36379](remote),objID:[5da80e77:19b19a524c2:-7fff, 1005152684086812805]]]]]
+13518836 [RMI TCP Connection(556)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:44995](remote),objID:[41f9f071:19b19ca01d2:-7fff, -3032112865179434504]]]]]
+13520018 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+13520058 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+13520058 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+13520089 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+13520101 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+13520101 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+13520221 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+13520236 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+13520236 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+13520236 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+13520236 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+13520359 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+13520362 [Updater->595aafc3] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@595aafc3
+13520363 [Updater->595aafc3] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@595aafc3
+13520438 [Updater->19a8aa31] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@19a8aa31
+13524596 [RMI TCP Connection(562)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:37643](remote),objID:[7a78cc22:19b19ca17e2:-7fff, 7911474193009327285]]]]]
+13532812 [RMI TCP Connection(563)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+13532812 [RMI TCP Connection(563)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 38.
+13711763 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+13711763 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+13711763 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+13711763 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+13711764 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+13711764 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+13711889 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+13711920 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+13711920 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+13711920 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+13711920 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+13712024 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+13712028 [Updater->2102cff4] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@2102cff4
+13712030 [Updater->2102cff4] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@2102cff4
+13712108 [Updater->595aafc3] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@595aafc3
+13913868 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+13913868 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+13913868 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+13913869 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+13913869 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+13913869 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+13913975 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+13913982 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+13913982 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+13913982 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+13913982 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+13914136 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+13914149 [Updater->514f9f06] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@514f9f06
+13914155 [Updater->514f9f06] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@514f9f06
+13914229 [Updater->2102cff4] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@2102cff4
+13919574 [RMI TCP Connection(589)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:38923](remote),objID:[78107932:19b19d01f1c:-7fff, 7473656777190273226]]]]]
+14121388 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+14121416 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+14121417 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+14121436 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+14121439 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+14121439 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+14121558 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+14121563 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+14121563 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+14121563 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+14121563 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+14121665 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+14121668 [Updater->ae74c3c] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@ae74c3c
+14121668 [Updater->ae74c3c] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@ae74c3c
+14121750 [Updater->514f9f06] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@514f9f06
+14127198 [RMI TCP Connection(607)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:44979](remote),objID:[a9b233e:19b19d34a02:-7fff, -6590054870307213330]]]]]
+14132233 [RMI TCP Connection(607)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+14132234 [RMI TCP Connection(607)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 51.
+14141741 [RMI TCP Connection(607)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+14141745 [RMI TCP Connection(607)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 52.
+15538330 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+15538356 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+15538357 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+15538371 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+15538376 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+15538376 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+15538490 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+15538514 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+15538514 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+15538514 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+15538514 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+15538605 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+15538607 [Updater->fd83ff6] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@fd83ff6
+15538621 [Updater->fd83ff6] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@fd83ff6
+15538688 [Updater->ae74c3c] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@ae74c3c
+15543824 [RMI TCP Connection(696)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:35983](remote),objID:[-6751693f:19b19e8e80b:-7fff, -3065746288417841882]]]]]
+15550237 [RMI TCP Connection(696)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+15550237 [RMI TCP Connection(696)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 43.
+15573172 [RMI TCP Connection(696)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+15573172 [RMI TCP Connection(696)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 57.
+15581788 [RMI TCP Connection(696)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+15581788 [RMI TCP Connection(696)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 45.
+15593504 [RMI TCP Connection(696)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+15593504 [RMI TCP Connection(696)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 50.
+15637911 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+15637926 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+15637927 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+15637938 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+15637941 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+15637941 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+15638051 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+15638056 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+15638056 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+15638056 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+15638056 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+15638214 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+15638223 [Updater->5a324d66] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5a324d66
+15638229 [Updater->5a324d66] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5a324d66
+15638313 [Updater->fd83ff6] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@fd83ff6
+15648205 [RMI TCP Connection(710)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:34385](remote),objID:[-fd64f75:19b19ea7f99:-7fff, -3887283438985270432]]]]]
+15653302 [RMI TCP Connection(710)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+15653302 [RMI TCP Connection(710)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 52.
+15655042 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+15655064 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+15655065 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+15655082 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+15655085 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+15655085 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+15655217 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+15655221 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+15655221 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+15655221 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+15655221 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+15655347 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+15655352 [Updater->6bbc5898] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6bbc5898
+15655363 [Updater->6bbc5898] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6bbc5898
+15655449 [Updater->5a324d66] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5a324d66
+15665780 [RMI TCP Connection(716)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:39311](remote),objID:[41f74778:19b19eac4f4:-7fff, -1006453882068357432]]]]]
+15671035 [RMI TCP Connection(717)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+15671035 [RMI TCP Connection(717)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 55.
+15682563 [RMI TCP Connection(717)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+15682563 [RMI TCP Connection(717)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 40.
+15694349 [RMI TCP Connection(717)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+15694349 [RMI TCP Connection(717)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 44.
+15704658 [RMI TCP Connection(717)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+15704658 [RMI TCP Connection(717)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 54.
+15715600 [RMI TCP Connection(717)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+15715600 [RMI TCP Connection(717)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 42.
+16463027 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+16463056 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+16463056 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+16463071 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+16463072 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+16463073 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+16463197 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+16463208 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+16463208 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+16463208 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+16463208 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+16463327 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+16463335 [Updater->5727e38c] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5727e38c
+16463336 [Updater->5727e38c] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5727e38c
+16463437 [Updater->6bbc5898] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6bbc5898
+16473661 [RMI TCP Connection(772)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:38817](remote),objID:[-37756c03:19b19f7182f:-7fff, -3285635420477869379]]]]]
+16475649 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+16475666 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+16475667 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+16475681 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+16475693 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+16475693 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+16475816 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+16475835 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+16475835 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+16475835 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+16475835 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+16475914 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+16475918 [Updater->44cbbfad] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@44cbbfad
+16475921 [Updater->44cbbfad] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@44cbbfad
+16475986 [Updater->5727e38c] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5727e38c
+16485095 [RMI TCP Connection(777)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:42387](remote),objID:[-add2467:19b19f744a0:-7fff, -2189746658300427424]]]]]
+16496405 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16496405 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 59.
+16505388 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16505389 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 51.
+16514453 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16514453 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 60.
+16523303 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16523303 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 47.
+16532005 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16532005 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 61.
+16540499 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16540500 [RMI TCP Connection(778)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 52.
+16554082 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+16554105 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+16554105 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+16554117 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+16554118 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+16554118 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+16554246 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+16554263 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+16554263 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+16554263 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+16554264 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+16554399 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+16554413 [Updater->6d0fd44a] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6d0fd44a
+16554414 [Updater->6d0fd44a] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6d0fd44a
+16554495 [Updater->44cbbfad] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@44cbbfad
+16559462 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+16559462 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+16559462 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+16559462 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+16559462 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+16559462 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+16559595 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+16559598 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+16559598 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+16559598 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+16559598 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+16559671 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+16559677 [Updater->59a51cdb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@59a51cdb
+16559681 [Updater->59a51cdb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@59a51cdb
+16559801 [Updater->6d0fd44a] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@6d0fd44a
+16560964 [RMI TCP Connection(789)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:45293](remote),objID:[-31452fb7:19b19f86d3b:-7fff, -6966353865303103878]]]]]
+16566257 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16566257 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 51.
+16576722 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16576722 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 42.
+16587192 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16587192 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 41.
+16599030 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16599030 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 47.
+16608225 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16608225 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 39.
+16618357 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16618358 [RMI TCP Connection(790)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 43.
+16641370 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+16641396 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Taking down the simulation environment
+16641397 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: KILLED
+16641411 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Removing all entities
+16641412 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Remove all (remaining) agents
+16641412 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.Stepper  - Stepper is running... waiting for requests.
+16641556 [AWT-EventQueue-0] WARN nl.tudelft.bw4t.server.BW4TServer  - Registry is already running. Getting running registry instead.
+16641570 [AWT-EventQueue-0] DEBUG nl.tudelft.bw4t.server.BW4TServer  - Server bound to: rmi://localhost:8000/BW4TServer
+16641570 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: INITIALIZING
+16641570 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - BW4T Server has been bound.
+16641570 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Environment now in state: RUNNING
+16641658 [AWT-EventQueue-0] INFO nl.tudelft.bw4t.server.environment.BW4TEnvironment  - Launching the BW4T Server Graphical User Interface.
+16641674 [Updater->5b580efc] INFO nl.tudelft.bw4t.map.renderer.Updater  - Initializing updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5b580efc
+16641675 [Updater->5b580efc] INFO nl.tudelft.bw4t.map.renderer.Updater  - Started updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@5b580efc
+16641769 [Updater->59a51cdb] INFO nl.tudelft.bw4t.map.renderer.Updater  - Stopped updater thread for: nl.tudelft.bw4t.server.controller.ServerMapController@59a51cdb
+imDefLkup.c,419: The application disposed a key event with 41520256 serial.
+16646439 [RMI TCP Connection(797)-192.168.1.162] INFO nl.tudelft.bw4t.server.BW4TServer  - Registering client: Proxy[BW4TClientActions,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.162:33687](remote),objID:[-621e2a41:19b19f9baae:-7fff, 429674587206201895]]]]]
+16651542 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16651542 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 48.
+16666007 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16666007 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 49.
+16674165 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16674165 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 39.
+16681985 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16681985 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 58.
+16688942 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16688942 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 52.
+16695736 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 is trying to pick up a block.
+16695736 [RMI TCP Connection(797)-192.168.1.162] DEBUG nl.tudelft.bw4t.server.eis.RobotEntity  - Bot_1 will pickup block 43.
